@@ -25,13 +25,13 @@ html {
 
 /*-----------------------*/
 /* #by {
-  font-family: 'Arima Madurai', cursive;
-  color: #4a676a;
-  font-size: 10px;
-  width: auto;
-  position: fixed;
-  top: 50%;
-} */
+   font-family: 'Arima Madurai', cursive;
+   color: #4a676a;
+   font-size: 10px;
+   width: auto;
+   position: fixed;
+   top: 50%;
+ } */
 
 ul li {
   list-style-type: none !important;
@@ -376,12 +376,12 @@ h5 {
 }
 
 /* #popup_login {
-  top: 50%;
-  position: fixed;
-  z-index: 2000;
-  height: 100vh;
-  width: 100%;
-} */
+   top: 50%;
+   position: fixed;
+   z-index: 2000;
+   height: 100vh;
+   width: 100%;
+ } */
 .login_container {
   position: fixed;
   top: 30%;
@@ -525,12 +525,12 @@ h5 {
 }
 /* =========== welcome part css start ========== */
 /* .welcome_section {
-  background-color: #f2f2f2;
-} */
+   background-color: #f2f2f2;
+ } */
 /* =========== counter part start ============== */
 /* .counter_svg {
-  background-color: #f2f2f2;
-} */
+   background-color: #f2f2f2;
+ } */
 .counter_section {
   /* background-color: #0a0a0a; */
   padding: 80px 0px !important;
@@ -562,8 +562,8 @@ h5 {
   line-height: 90px;
 }
 /* .counter_number {
-  padding-top: 25px;
-} */
+   padding-top: 25px;
+ } */
 .counter_number h4 {
   font-size: 17px !important;
   color: #fff;
@@ -812,8 +812,8 @@ h5 {
   text-align: justify;
 }
 .slide_img {
-  height: 180px;
-  width: 180px;
+  height: 190px;
+  width: 190px;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -826,8 +826,8 @@ h5 {
 }
 
 .slide_img_general {
-  height: 180px;
-  width: 180px;
+  height: 190px;
+  width: 190px;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -1066,8 +1066,8 @@ h5 {
   box-shadow: 2px 4px 24px -8px rgba(51, 51, 51, 0.66) !important;
 }
 /* .header_login {
-  margin: 0px !important;
-} */
+   margin: 0px !important;
+ } */
 .header_input::placeholder {
   color: #ebebeb !important;
 }
@@ -1106,7 +1106,7 @@ h5 {
 /* ================latest part start============== */
 .latest_content_image {
   position: relative;
-  height: 250px;
+  height: 260px;
   width: 100%;
   overflow: hidden;
   border-radius: 20px;
@@ -1115,8 +1115,8 @@ h5 {
   -moz-box-shadow: 0px 10px 30px #2b56f524;
   box-shadow: 0px 10px 30px #2b56f524;
   /* -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); */
+   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); */
 }
 .latest_content_image img {
   height: 100%;
@@ -1238,9 +1238,9 @@ h5 {
   border-radius: 20px;
 }
 .news_image {
-  height: 160px;
+  height: 180px;
   width: 100%;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
