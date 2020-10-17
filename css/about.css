@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Josefin+Sans&family=Mulish&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+}
+:root {
+  --main-bg-color: #21d3c7;
+  --main-txt-color: #484848;
+}
+html {
+  scroll-behavior: smooth;
+}

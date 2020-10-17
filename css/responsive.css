@@ -1,0 +1,266 @@
+/*================== mobile============= */
+
+@media (max-width: 575px) {
+  p {
+    font-size: 11px !important;
+  }
+  .custom_nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
+  #mynav ul {
+    text-align: center !important;
+  }
+  .header_menu_left {
+    line-height: 30px;
+  }
+  .header_menu_left ul li {
+    display: list-item;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .header_menu_left ul li p {
+    font-size: 14px !important;
+  }
+
+  .header_menu_left {
+    text-align: center;
+  }
+  .header_menu_right {
+    margin: auto;
+    display: none;
+    line-height: 25px;
+    text-align: center;
+  }
+  /* .header_menu_right ul li {
+    margin-bottom: -14px;
+  } */
+  .header_menu_right ul li a {
+    height: 28px;
+    width: 28px;
+
+    line-height: 28px;
+
+    font-size: 12px;
+  }
+  /* ================ all header =========== */
+  .all_header h2 {
+    font-size: 20px !important;
+  }
+  #mynav ul li a {
+    line-height: 35px !important;
+  }
+  .dropdown_content {
+    height: 400px !important;
+    overflow-y: scroll !important;
+  }
+  .login_click {
+    font-size: 14px !important;
+    line-height: 35px !important;
+  }
+  .sticky {
+    padding: 5px 0px !important;
+  }
+  .slider .slider_image {
+    height: 50vh !important;
+  }
+  .media_banner {
+    height: 50vh !important;
+  }
+  .down {
+    height: 35px !important;
+    width: 35px !important;
+    text-align: center;
+    line-height: 35px !important;
+  }
+  .down h3 {
+    color: #fff;
+    line-height: 34px !important;
+    font-size: 14px !important;
+  }
+  .about_section_bg {
+    height: 50vh !important;
+  }
+  .work_banner {
+    height: 50vh !important;
+  }
+  .form_close {
+    top: 1px !important;
+
+    width: 67px !important;
+
+    right: 5% !important;
+
+    border-radius: 4px !important;
+  }
+  .type_txt h2 > .type {
+    font-size: 28px !important;
+    color: darkturquoise !important;
+  }
+  .slider .prev_arrow {
+    top: 80% !important;
+    left: 28% !important;
+    font-size: 18px !important;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    transform: scale(1) !important;
+  }
+  .slider .next_arrow {
+    right: 28% !important;
+    top: 80% !important;
+    font-size: 25px !important;
+    font-size: 18px !important;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    transform: scale(1) !important;
+  }
+  .slider_content h2 {
+    font-size: 20px !important;
+  }
+  /* =================cause part css start============= */
+  .cause_left_image {
+    margin: 10px 0px !important;
+  }
+  /* ================= service part css start =========== */
+  .service_content_image {
+    margin: 10px 0px !important;
+  }
+
+  /* about part start */
+  .prev_arrow_executive {
+    left: 32% !important;
+    top: 100% !important;
+  }
+  .next_arrow_executive {
+    right: 32% !important;
+    top: 100% !important;
+  }
+  .blog_info {
+    text-align: left !important;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .blog_meta li {
+    display: inline-block;
+    width: calc(95% / 2);
+  }
+
+  /* gallery part css start */
+  .prev_arrow_photoes {
+    position: absolute;
+    top: 47% !important;
+    left: 0 !important;
+    height: 35px;
+    width: 45px !important;
+    border-radius: 2px;
+    color: #fff !important;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 10;
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+  }
+  .next_arrow_photoes {
+    position: absolute;
+    top: 47% !important;
+    right: 0 !important;
+    height: 35px;
+    width: 45px !important;
+    border-radius: 2px;
+    color: #fff !important;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+    z-index: 10;
+  }
+  .type_txt h2 {
+    font-size: 20px !important;
+  }
+  .type_txt h2 > .type {
+    font-size: 28px !important;
+  }
+  .tableScrollMobile {
+    width: 200 !important;
+    overflow-x: scroll !important;
+  }
+  .service_banner_content h2 {
+    font-size: 20px !important;
+  }
+  .work_banner_content h2 {
+    font-size: 20px !important;
+  }
+  .header_login_btn {
+    width: 100% !important;
+    display: block !important;
+  }
+  .header_bg {
+    height: 100% !important;
+    padding-bottom: 8px !important;
+  }
+  .header_phone,
+  .header_mail h5 {
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+  .header_phone h5 {
+    font-size: 12px !important;
+    line-height: 25px !important;
+  }
+  .prev_arrow_latest {
+    position: absolute;
+    cursor: pointer;
+    left: 1% !important;
+    top: 45% !important;
+    font-size: 20px;
+    height: 35px;
+    width: 55px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    z-index: 99 !important;
+    color: #fff;
+    background-color: var(--main-bg-color);
+  }
+
+  .next_arrow_latest {
+    position: absolute;
+    cursor: pointer;
+    right: 1% !important;
+    font-size: 20px;
+    top: 46% !important;
+    height: 35px;
+    width: 55px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff;
+    background-color: var(--main-bg-color);
+  }
+  .job_location {
+    text-align: left !important;
+  }
+  .job_posted {
+    text-align: left !important;
+  }
+  .career_bg {
+    height: 100vh !important;
+  }
+  .career_banner_tittel h2 {
+    font-size: 20px;
+  }
+  .main_form {
+    overflow-x: hidden !important;
+  }
+  .contact_bg {
+    height: 22vh !important;
+  }
+  .contact_text {
+    position: relative !important;
+    top: 10% !important;
+  }
+}

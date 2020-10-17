@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Josefin+Sans&family=Mulish&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+}
+:root {
+  --main-bg-color: #21d3c7;
+  --main-txt-color: #484848;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul li {
+  list-style-type: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.service_banner {
+  height: 65vh !important;
+  width: 100% !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+  position: relative;
+}
+
+.service_banner:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.service_inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+.service_banner_content h2 {
+  font-size: 45px !important;
+  font-weight: 800 !important;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.micro_finance_content {
+  text-align: justify;
+}
+.micro_finance_content p {
+  font-size: 14px;
+  color: #484848;
+}
+
+#finance {
+  border-collapse: collapse;
+  width: 100%;
+}
+#finance td,
+#finance th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#finance th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
