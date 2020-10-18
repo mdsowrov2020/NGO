@@ -210,6 +210,10 @@ h5 {
   line-height: 54px;
 }
 /* =========== navbar css start=========== */
+.navbar img {
+  height: 60px;
+  width: 60px;
+}
 .custom_nav {
   background-color: rgba(173, 173, 173, 0.25);
   /* background-color: var(--main-bg-color); */
@@ -273,7 +277,10 @@ h5 {
 }
 .navbar-toggler {
   padding: 5px;
-  border: 2px solid #fff !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  /* border: 2px solid #fff !important; */
 }
 .navbar-toggler .bar {
   color: #fff !important;

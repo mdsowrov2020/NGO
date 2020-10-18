@@ -7,7 +7,11 @@
   .custom_nav {
     background-color: rgba(0, 0, 0, 0.8) !important;
   }
-  #mynav ul {
+  .navbar img {
+    height: 45px;
+    width: 45px;
+  }
+  .cu #mynav ul {
     text-align: center !important;
   }
   .header_menu_left {
@@ -60,6 +64,7 @@
   }
   .sticky {
     padding: 5px 0px !important;
+    background-color: #0a0a0a !important;
   }
   .slider .slider_image {
     height: 50vh !important;
