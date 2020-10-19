@@ -51,6 +51,9 @@
   .all_header h2 {
     font-size: 20px !important;
   }
+  #mynav ul li {
+    text-align: center;
+  }
   #mynav ul li a {
     line-height: 35px !important;
   }
@@ -267,5 +270,18 @@
   .contact_text {
     position: relative !important;
     top: 10% !important;
+  }
+  .mega_menu_image {
+    height: 185px;
+    width: 100%;
+    /* border-radius: 50%; */
+    /* margin: auto; */
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .mega_menu_image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
   }
 }

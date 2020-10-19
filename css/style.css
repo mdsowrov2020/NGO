@@ -250,7 +250,7 @@ h5 {
   transition: all 0.3s linear;
 }
 #mynav ul li a:hover {
-  color: #00ddab !important;
+  color: #005d80 !important;
 }
 
 #mynav ul li.nav_active a {
