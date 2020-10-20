@@ -125,11 +125,13 @@ h5 {
 }
 /* =========== headerc css start ========= */
 .header_menu_left {
-  line-height: 55px;
+  height: 48px;
+  line-height: 48px;
 }
 .header_menu_left ul li {
   display: inline-block;
   margin-right: 25px;
+
   margin-left: 13px;
 }
 .header_menu_left ul li p {
@@ -139,9 +141,9 @@ h5 {
   margin-right: 5px;
 }
 .header_menu_right {
-  line-height: 55px;
-
   text-align: right;
+  height: 48px;
+  line-height: 48px;
 }
 .header_menu_right ul li {
   display: inline-block;
@@ -160,8 +162,8 @@ h5 {
   border-radius: 50%;
 }
 .header_social {
-  width: 100%;
-  margin-top: 4px;
+  /* width: 100%;
+   margin-top: 4px; */
 }
 .header_social li {
   list-style-type: none;
@@ -195,9 +197,10 @@ h5 {
   line-height: 40px;
 }
 .header_bg {
-  /* background-color: #009f94; */
-  background-color: #fff;
-  height: 55px;
+  background-color: #cfd4da;
+  /* background-color: #fff; */
+
+  height: 48px;
 }
 .header_phone,
 .header_mail h5 {
